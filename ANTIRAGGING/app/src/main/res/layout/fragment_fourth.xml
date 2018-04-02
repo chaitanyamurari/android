@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.android.antiragging.FourthFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:text="Hi, "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:text="\n    Users, Thankyou for downloading this antiragging app and contributing against making a ragging free environment.\n \nIt's very simple to run this app you just need to open the app then click on the CONTINUE button you would be directed to second page. \n \nHere on the home screen you would be able to see three buttons\n \n1.   (click to fill anti ragging form )you need a internet connection to fill the form as you would be redirected the the associated website.\n \n2.   ( click to complain against ragging) you will be redirected to another page where you will fill the details and select the contacts whom you want to send your complain from yr phone and your college mail id and then click SUBMIT button to file a complain. You would need a internet connection to submit your complain. \n \n3.   (click to file other management complain) here again you would be directed to a page where you have to fill your details and college emailid and click SUBMIT button to send your complain. You would need an internet connection too to submit your complain to your college \n \nYou can also use navigation drawer to know abt ragging and give feedback in oreder to improve this app you can also contact us or add emergency contacts to send an sos button.\n \n We hope you would be helped out by this app and you could make an effort in making a ragging free country \n\n                     thankss!!! "/>
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

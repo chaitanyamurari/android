@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_HOME"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_INFORMATION_PACK"
+            android:title="INFORMATION PACK" />
+        <item
+            android:id="@+id/Second_Fragment"
+            android:title="FEEDBACK" />
+        <item
+            android:id="@+id/nav_CONTACT_US"
+            android:title="CONTACT US" />
+        <item
+            android:id="@+id/nav_aboutApp"
+            android:title="ABOUT APP"/>
+        <item
+            android:id="@+id/nav_emergencyContacts"
+            android:title="Emergency contacts"/>
+
+    </group>
+
+
+
+</menu>
